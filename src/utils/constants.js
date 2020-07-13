@@ -1,0 +1,1 @@
+export const CORREIOS_API_URL = 'https://viacep.com.br';

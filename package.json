@@ -1,0 +1,27 @@
+{
+  "name": "cep-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "module": "src/server.js",
+  "scripts": {
+    "build": "rm -f dist/* && webpack",
+    "start": "node dist/index.js",
+    "start:dev": "nodemon -r esm index.js"
+  },
+  "author": "Bernardo Chagas",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-eslint": "^10.1.0",
+    "eslint": "^6.8.0",
+    "nodemon": "^2.0.2",
+    "webpack": "^4.42.0",
+    "webpack-cli": "^3.3.11"
+  },
+  "dependencies": {
+    "apollo-server": "^2.15.1",
+    "esm": "^3.2.25",
+    "graphql": "^15.3.0",
+    "node-fetch": "^2.6.0"
+  }
+}
