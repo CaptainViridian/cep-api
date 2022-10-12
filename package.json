@@ -19,7 +19,7 @@
     "webpack-cli": "^3.3.11"
   },
   "dependencies": {
-    "apollo-server": "^2.15.1",
+    "apollo-server": "^2.25.4",
     "esm": "^3.2.25",
     "graphql": "^15.3.0",
     "node-fetch": "^2.6.0"
